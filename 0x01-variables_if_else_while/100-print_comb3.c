@@ -21,8 +21,11 @@ int main(void)
 			{
 				putchar(d);
 				putchar(x);
-				if(x != 9 && d != 9)
-				putchar(', ');
+					if(x != 9 && d != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 			}
 		}
 	}
