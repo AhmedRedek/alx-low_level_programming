@@ -19,8 +19,10 @@ int main(void)
 		{
 			if (x < d)
 			{
-				str = strcat('d'+'0', 'x'+'0');
-				putchar(str);
+				putchar(d);
+				putchar(x);
+				if(x != 9 && d != 9)
+				putchar(', ');
 			}
 		}
 	}
