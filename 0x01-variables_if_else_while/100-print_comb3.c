@@ -12,9 +12,9 @@ int main(void)
 	int d;
 	int x;
 
-	for (d = 0; d < 10; d++)
+	for (d = 0; d <= 9; d++)
 	{
-		for (x = 0; x < 10; x++)
+		for (x = 0; x <=9; x++)
 		{
 			if (d <= x)
 			{
