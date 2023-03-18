@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (x = 0; x < 100; x++)
 		{
-			if (x < d)
+			if (d <= x)
 			{
 				putchar(d + '0');
 				putchar(x + '0');
