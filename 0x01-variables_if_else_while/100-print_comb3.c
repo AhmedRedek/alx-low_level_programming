@@ -9,15 +9,18 @@
 int main(void)
 {
 	int d;
+	int x;
+	int str;
 
 	for (d = 0; d < 100; d++)
 	{
-		putchar((d / 10) + '0');
-		putchar((d % 10) + '0');
-		if (d != 99)
+		for (x = 0; x < 100; x++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (x < d)
+			{
+				str = strcat(d, x);
+				putchar(str);
+			}
 		}
 	}
 	putchar('\n');
