@@ -23,8 +23,7 @@ int main(void)
 			
 			if(x != 9 && d != 8)
 			{
-				putchar(',');
-				putchar(' ');
+				putchar(',' + ' ');
 			}
 			}
 		}
