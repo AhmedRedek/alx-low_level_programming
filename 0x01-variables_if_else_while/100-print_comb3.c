@@ -18,8 +18,8 @@ int main(void)
 		{
 			if (x < d)
 			{
-				putchar(d);
-				putchar(x);
+				putchar('d');
+				putchar('x');
 					if(x != 9 && d != 9)
 					{
 						putchar(',');
