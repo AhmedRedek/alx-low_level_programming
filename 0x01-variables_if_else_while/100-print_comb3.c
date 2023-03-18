@@ -14,6 +14,11 @@ int main(void)
 
 	for (d = 0; d <= 9; d++)
 	{
+		if (d > 0 && d < 9)
+		{
+			putchar(',');
+                        putchar(' ');
+		}
 		for (x = 0; x <=9; x++)
 		{
 			if (d <= x && d != x)
