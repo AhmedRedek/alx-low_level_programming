@@ -19,7 +19,7 @@ int main(void)
 		{
 			if (x < d)
 			{
-				str = strcat(d, x);
+				str = strcat(d+'0', x+'0');
 				putchar(str);
 			}
 		}
