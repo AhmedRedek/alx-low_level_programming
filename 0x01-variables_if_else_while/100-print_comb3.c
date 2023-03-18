@@ -20,11 +20,11 @@ int main(void)
 			{
 				putchar(d + '0');
 				putchar(x + '0');
-					if(x != 9 && d != 9)
-					{
-						putchar(',');
-						putchar(' ');
-					}
+			}
+			if(x != 9 && d != 9)
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
