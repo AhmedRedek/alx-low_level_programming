@@ -12,9 +12,14 @@
  *
  **/
 
-int main()
+int main(void)
 {
-	printf("_putchar");
-	printf("\n");
+	char *sh = "_putchar";
+
+	while (*sh)
+	{
+		_putchar(*sh);
+		sh++;
+	}
 	return 0;
 }
