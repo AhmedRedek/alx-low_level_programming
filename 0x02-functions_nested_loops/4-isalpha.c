@@ -7,7 +7,7 @@
 int _isalpha(int c)
 {
 
-	if (_putchar (c + '0') >= 'a' && _putchar (c + '0') <= 'z' || _putchar (c + '0') >= 'A' && _putchar (c + '0') <= 'Z')
+	if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
 	       return (1);
 	return (0);
 }	
