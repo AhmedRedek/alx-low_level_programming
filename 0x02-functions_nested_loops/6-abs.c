@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *abs() - gives abs val
+ *_abs - gives abs val
  *@x - pass number
  *Return: 1 if good
  */
