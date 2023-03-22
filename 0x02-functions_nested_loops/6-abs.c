@@ -6,9 +6,9 @@
  */
 int _abs(int x)
 {
+	int z = -1;
+
 	if (x < 0)
-	{
-		return (x * -1);
-		_putchar ('\n');
-	}
+		x = x * z;
+	return (x);
 }
