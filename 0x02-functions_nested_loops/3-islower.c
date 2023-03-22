@@ -2,7 +2,6 @@
 /**
  *int _islower(int c) - Check lower case alphabet
  *
- *
  * Return 1 when true
  */
 int _islower(int c)
@@ -16,6 +15,8 @@ int _islower(int c)
 			x = 1;
 	}
 	if (x == 1)
+	{
 		return 1;
+	}
 	return 0;
 }
