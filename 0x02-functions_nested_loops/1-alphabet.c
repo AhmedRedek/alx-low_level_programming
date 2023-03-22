@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- *This is an alphabet listing code
+ * print_alphabet - a function that prints the alphabet, in lowercase
  *
- *Return alpjabet
- *
- *
+ * Return: Always 0 (Succes)
  */
 
 void print_alphabet(void)
