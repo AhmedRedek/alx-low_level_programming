@@ -1,9 +1,8 @@
 #include "main.h"
 /**
- *Description: print_alphabet X 10 - a function that prints the alphabet, in lowercase
+ * print_alphabet_x10 - check the code.
  *
- *
- *Return: Always 0 (Succes)
+ * Return: Always 0.
  */
 void print_alphabet_x10(void)
 {
