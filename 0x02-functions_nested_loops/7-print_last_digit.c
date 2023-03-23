@@ -11,5 +11,5 @@ int print_last_digit(int x)
 	if(x < 0)
 		x = x * d;
 	x = x % 10;
-	return (x * 11);
+	return (x);
 }
