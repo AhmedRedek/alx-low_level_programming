@@ -1,4 +1,4 @@
-iu#include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - Prints the add of the Fibonacci numbers
@@ -19,7 +19,6 @@ int main(void)
 		n1 = n2;
 		n2 = fn;
 	}
-	p
-rintf("\n");
+	printf("\n");
 	return (0);
 }
