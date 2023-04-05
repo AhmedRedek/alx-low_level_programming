@@ -7,6 +7,6 @@ int _strlen_recursion(char *s)
 
 	for (counter = 0; *s != '\n'; )
 		counter ++;
-	_strlen_recursion(*s + 1);
+	_strlen_recursion(s + 1);
 	return (counter);
 }
